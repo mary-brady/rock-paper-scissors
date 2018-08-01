@@ -31,5 +31,5 @@ function play(playerChoice) {
 
 
 function makeChoice() {
-    return choices[Math.floor(Math.random() * Math.floor(3))];
+    return choices[Math.floor(Math.random() * 3)];
 } 
